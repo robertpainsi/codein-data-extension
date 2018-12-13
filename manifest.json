@@ -1,0 +1,26 @@
+{
+  "background": {
+    "scripts": [
+      "libs/jquery-3.2.1.min.js",
+      "config.js",
+      "index.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "logo16.png",
+    "128": "logo128.png"
+  },
+  "manifest_version": 2,
+  "name": "Fetch all task instance data",
+  "description": "Fetch all task instance data",
+  "permissions": [
+    "downloads",
+    "storage",
+    "unlimitedStorage",
+    "https://codein.withgoogle.com/api"
+  ],
+  "short_name": "codein-task-instance-fetcher",
+  "version": "1.0"
+}
